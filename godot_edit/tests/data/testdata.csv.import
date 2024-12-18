@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://2h7af3p3ue0m"
+
+[deps]
+
+files=["res://godot/gd_4.2_src/godot-4.2/tests/data/testdata.Header 2.translation", "res://godot/gd_4.2_src/godot-4.2/tests/data/testdata.Header 3.translation", "res://godot/gd_4.2_src/godot-4.2/tests/data/testdata.Header 4.translation"]
+
+source_file="res://godot/gd_4.2_src/godot-4.2/tests/data/testdata.csv"
+dest_files=["res://godot/gd_4.2_src/godot-4.2/tests/data/testdata.Header 2.translation", "res://godot/gd_4.2_src/godot-4.2/tests/data/testdata.Header 3.translation", "res://godot/gd_4.2_src/godot-4.2/tests/data/testdata.Header 4.translation"]
+
+[params]
+
+compress=true
+delimiter=0

@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://bddgqhts1bvek"
+
+[deps]
+
+files=["res://godot/gd_4.2_src/godot-4.2/tests/data/translations.en.translation", "res://godot/gd_4.2_src/godot-4.2/tests/data/translations.de.translation", "res://godot/gd_4.2_src/godot-4.2/tests/data/translations.ja.translation", "res://godot/gd_4.2_src/godot-4.2/tests/data/translations.fa.translation"]
+
+source_file="res://godot/gd_4.2_src/godot-4.2/tests/data/translations.csv"
+dest_files=["res://godot/gd_4.2_src/godot-4.2/tests/data/translations.en.translation", "res://godot/gd_4.2_src/godot-4.2/tests/data/translations.de.translation", "res://godot/gd_4.2_src/godot-4.2/tests/data/translations.ja.translation", "res://godot/gd_4.2_src/godot-4.2/tests/data/translations.fa.translation"]
+
+[params]
+
+compress=true
+delimiter=0
