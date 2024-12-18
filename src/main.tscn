@@ -1,0 +1,44 @@
+[gd_scene load_steps=2 format=3 uid="uid://cci8e81q76yxk"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_1gb32"]
+
+[node name="Main" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_1gb32")
+
+[node name="VBox" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="VBox"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="TextureRect" type="TextureRect" parent="VBox/PanelContainer"]
+layout_mode = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Timeline" type="HSlider" parent="VBox"]
+layout_mode = 2
+
+[node name="HBox" type="HBoxContainer" parent="VBox"]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="PlayPauseButton" type="Button" parent="VBox/HBox"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+text = "play"
+
+[connection signal="pressed" from="VBox/HBox/PlayPauseButton" to="." method="_on_play_pause_button_pressed"]
